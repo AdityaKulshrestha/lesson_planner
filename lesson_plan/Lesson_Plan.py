@@ -1,12 +1,10 @@
 import streamlit as st
-from dotenv import load_dotenv
 import os
 from lesson_plan.Lesson_Utils import generate_response, template
 from lesson_plan.students import student
 import json
 
 # setting model and api key:
-load_dotenv()
 
 
 
